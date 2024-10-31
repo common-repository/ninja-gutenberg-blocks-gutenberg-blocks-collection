@@ -1,0 +1,60 @@
+/**
+ * #.# Common SCSS
+ *
+ * Can include things like variables and mixins
+ * that are used across the project.
+*/
+
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right;
+}
+.center{
+  text-align: center;
+}
+
+.nb-row{
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.nb-d-flex{
+  display: flex;
+}
+.nb-flex-wrap{
+  flex-wrap: wrap;
+}
+.nb-mb-40{
+  margin-bottom: 40px;
+}
+.nb-mlr-15{
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.nb-flex{
+  flex: 1 1;
+}
+.column-1{
+  width: calc( 100% - 30px);
+}
+.column-2{
+  width: calc( 50% - 30px);
+}
+.column-3{
+  width: calc( 33.333% - 30px);
+}
+.column-4{
+  width: calc( 25% - 30px);
+}
+.column-5{
+  width: calc( 20% - 30px);
+}
+.column-6{
+  width: calc( 16.666% - 30px);
+}
+@media screen and (max-width: 767px) {
+  .column-1, .column-2, .column-3, .column-4, .column-5, .column-6 {
+    width: calc(100% - 30px);
+  }
+}

@@ -1,0 +1,32 @@
+// Styling the BackEnd and FrontEnd
+.ninja-block-cta {
+	position: relative;
+	color: #293038;
+	padding: 30px;
+	border-radius: 5px;
+	.ninja-cta {
+		display: flex;
+		text-align: center;
+		flex-wrap: wrap;
+		.ninja-text-cta {
+			margin-bottom: 20px;
+			.ninja-cta-text {
+				margin: 0;
+			}
+		}
+
+		.ninja-cta-button {
+			margin: 0 auto;
+			.ninja-btn {
+				padding: 0.6em 1em;
+				display: inline-block;
+				background: black;
+				.ninja-button {
+					color: #fff;
+					padding: 0px;
+					margin: 0;
+				}
+			}
+		}
+	}
+}

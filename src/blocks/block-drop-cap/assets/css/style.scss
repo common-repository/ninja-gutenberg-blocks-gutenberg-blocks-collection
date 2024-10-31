@@ -1,0 +1,110 @@
+// Styles load on user front-end and back-end
+
+.ninja_dc_content_in_margin {
+	p:first-letter {
+		float: left;
+		line-height: 0.67em;
+		margin-top: 0.1em;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 78px;
+		margin-left: -73px;
+	}
+	.ninja_drop_cap_text {
+		padding-left: 80px;
+	}
+	.ninja_dc_content_distance_2 {
+		padding-left: 85px;
+	}
+	.ninja_dc_content_distance_3 {
+		padding-left: 90px;
+	}
+	.ninja_dc_content_distance_4 {
+		padding-left: 95px;
+	}
+	.ninja_dc_content_distance_5 {
+		padding-left: 100px;
+	}
+	.ninja_dc_content_distance_6 {
+		padding-left: 105px;
+	}
+	.ninja_dc_content_distance_7 {
+		padding-left: 110px;
+	}
+	.ninja_dc_content_distance_8 {
+		padding-left: 115px;
+	}
+	.ninja_dc_content_distance_9 {
+		padding-left: 120px;
+	}
+	.ninja_dc_content_distance_10 {
+		padding-left: 125px;
+	}
+
+	.ninja-dc-font-size-1.ninja_drop_cap_text:not(:focus):first-letter {
+		font-size: 78px;
+	}
+
+	.ninja-dc-font-size-2.ninja_drop_cap_text:not(:focus):first-letter {
+		font-size: 85px;
+	}
+
+	.ninja-dc-font-size-3.ninja_drop_cap_text:not(:focus):first-letter {
+		font-size: 95px;
+	}
+
+	.ninja-dc-font-size-4.ninja_drop_cap_text:not(:focus):first-letter {
+		font-size: 105px;
+	}
+
+	.ninja-dc-font-size-5.ninja_drop_cap_text:not(:focus):first-letter {
+		font-size: 115px;
+	}
+
+	.ninja-dc-font-size-6.ninja_drop_cap_text:not(:focus):first-letter {
+		font-size: 125px;
+	}
+
+	.ninja-dc-font-size-7.ninja_drop_cap_text:not(:focus):first-letter {
+		font-size: 135px;
+	}
+}
+.ninja_dc_content {
+	p::first-letter {
+		float: left;
+		line-height: 0.7em;
+		margin-top: 0.13em;
+		margin-right: 0.2em;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 78px;
+	}
+
+	.ninja-dc-font-size-1.ninja_drop_cap_text:not(:focus):first-letter {
+		font-size: 78px;
+	}
+
+	.ninja-dc-font-size-2.ninja_drop_cap_text:not(:focus):first-letter {
+		font-size: 85px;
+	}
+
+	.ninja-dc-font-size-3.ninja_drop_cap_text:not(:focus):first-letter {
+		font-size: 95px;
+	}
+
+	.ninja-dc-font-size-4.ninja_drop_cap_text:not(:focus):first-letter {
+		font-size: 105px;
+	}
+
+	.ninja-dc-font-size-5.ninja_drop_cap_text:not(:focus):first-letter {
+		font-size: 115px;
+	}
+
+	.ninja-dc-font-size-6.ninja_drop_cap_text:not(:focus):first-letter {
+		font-size: 125px;
+	}
+
+	.ninja-dc-font-size-7.ninja_drop_cap_text:not(:focus):first-letter {
+		font-size: 135px;
+	}
+}
